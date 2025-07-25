@@ -6,9 +6,10 @@ import { History } from './pages/History'
 import { Home } from './pages/Home'
 import { Landing } from './pages/landing'
 import {Route,Routes} from 'react-router-dom'
-
 import { useEffect } from 'react';
 import Aos from 'aos';
+import { ToastContainer, toast } from 'react-toastify';
+
 
 
 function App() {
@@ -25,6 +26,20 @@ useEffect(()=>{
   return (
     <>
 
+    <ToastContainer
+    position="top-center"
+    autoClose={5000}
+    hideProgressBar={false}
+    newestOnTop={false}
+    closeOnClick={false}
+    rtl={false}
+    pauseOnFocusLoss
+    draggable
+    pauseOnHover
+    theme="colored"
+    
+    />
+    
     <Routes>
       <Route path='/' element={<Body/>} >
       <Route path='/' element={<Landing/>}/>
