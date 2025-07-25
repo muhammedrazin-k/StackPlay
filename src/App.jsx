@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { Body } from './components/Body'
 import { History } from './pages/History'
 import { Home } from './pages/Home'
-import { Landing } from './pages/landing'
+import { Landing } from './pages/Landing'
 import {Route,Routes} from 'react-router-dom'
 import { useEffect } from 'react';
 import Aos from 'aos';
