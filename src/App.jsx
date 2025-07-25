@@ -1,7 +1,7 @@
 
 import './App.css'
 import 'aos/dist/aos.css';
-import { Body } from './components/body'
+import { Body } from './components/Body'
 import { History } from './pages/History'
 import { Home } from './pages/Home'
 import { Landing } from './pages/landing'
