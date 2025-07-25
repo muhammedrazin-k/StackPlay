@@ -83,7 +83,7 @@ export const Landing = () => {
             </p>
           </div>
 
-          <div data-aos='fade-left' data-aos-duration='400' className="cards w-[60%] md:w-[25%] h-25 bg-gray-900 p-4 rounded-xl shadow-[0px_6px_16px_rgba(0,0,0,0.6)]  hover:shadow-[0_0_20px_#8b5cf6] transform hover:-translate-y-5 hover:scale-105 transition-all duration-[800ms]">
+          <div data-aos='fade-right' data-aos-duration='400' className="cards w-[60%] md:w-[25%] h-25 bg-gray-900 p-4 rounded-xl shadow-[0px_6px_16px_rgba(0,0,0,0.6)]  hover:shadow-[0_0_20px_#8b5cf6] transform hover:-translate-y-5 hover:scale-105 transition-all duration-[800ms]">
             <div className="anime p-2">
             <DotLottieReact
       src="https://lottie.host/533c92cc-e494-48fc-a7a5-8c438f904a0b/8x9QAhBh1M.lottie"
